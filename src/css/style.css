@@ -1,0 +1,126 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+:root{
+    --background-color: #F4F1E6;
+    --border-image: 10%;
+    --color-button:#2E2D2D;
+    --background-titu:#B21B1B;
+    --width-img:400px;
+    --padding-img:10px;
+    --margin-img:25px;
+    --width-img-noti:300px;
+}
+.cabecera__card{
+    background-color: var(--background-titu);
+    width: 1500px;
+    height: 130px;
+}
+.ca{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left:20px;
+    top:5px;
+}
+.cab{
+    position: absolute;
+    width: 500px;
+    height: 130px;
+    right:100px;
+    top:5;
+}
+.cabe{
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    right:0;
+    top:0;
+}
+.menu{
+    background-color:black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    margin:0;
+    height: 40px;
+    color:black;
+}
+.submenu{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:10px;
+    color:white;
+    align-content: center;
+}
+ul{
+    list-style:none;
+}
+.button:hover{
+    background-color: var(--color-button);
+}
+.button{
+    text-decoration: none;
+    font-size: 33px;
+    color:white;
+    list-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin:40px;
+}
+.section__one{
+    background-color: var(--background-color);
+    justify-content: space-between;
+}
+.section{
+    background-color: var(--background-color);
+    justify-content: space-between;
+}
+.titulo__arti{
+    text-align: justify;
+    font-size: 30pt;
+    text-align: center;
+}
+.arti{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.arti__card{
+    background-color:white;
+    width:350px;
+    height:500px;
+    padding:5px;
+    margin:25px;
+    flex-wrap: wrap;
+}
+.notione{
+    width: var(--width-img-noti);
+    height: 300px;
+    margin: 20px;
+}
+.notitwo{
+    width: var(--width-img-noti);
+    height: 300px;
+    margin: 20px;
+}
+.notithree{
+    width: var(--width-img-noti);
+    height: 300px;
+    margin: 20px;
+}
+.arti__card__text{
+    text-align: justify;
+    font-size: 20pt;
+}
+
+.card{
+    width:350px;
+    height:500px;
+    padding:5px;
+    margin:25px;
+    flex-wrap: wrap;
+}
